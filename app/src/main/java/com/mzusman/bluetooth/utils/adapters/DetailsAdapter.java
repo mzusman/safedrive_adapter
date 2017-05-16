@@ -2,6 +2,7 @@ package com.mzusman.bluetooth.utils.adapters;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,11 +28,15 @@ public class DetailsAdapter extends BaseAdapter {
     TextView name;
     TextView value;
     ImageView smileyImage;
+    Drawable green;
+    Drawable red;
 
-    public DetailsAdapter(Context context, ImageView smileyImage1) {
+    public DetailsAdapter(Context context, ImageView smileyImage1,Drawable green , Drawable red) {
         this.context = context;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         this.smileyImage = smileyImage1;
+        this.green = green;
+        this.red = red;
 
 
     }
@@ -81,20 +86,20 @@ public class DetailsAdapter extends BaseAdapter {
 
         if (name.getText().equals(AvailableCommandNames.ENGINE_RPM.getValue()) && Integer.valueOf(value.getText().toString()) > 1000) {
             Toast.makeText(context, "ENGINE_RPM is too high", Toast.LENGTH_SHORT).show();
-            if (this.smileyImage != null)
-                this.smileyImage.setImageResource(R.drawable.red_smily);
+            if (this.smileyImage != null && this.smileyImage.getDrawable().getConstantState() != red.getConstantState() )
+                this.smileyImage.setImageDrawable(red);
         } else {
-            if (this.smileyImage != null)
-                this.smileyImage.setImageResource(R.drawable.green_smily);
+            if (this.smileyImage != null && this.smileyImage.getDrawable().getConstantState() != green.getConstantState())
+                this.smileyImage.setImageDrawable(green);
         }
 
         if (name.getText().equals(AvailableCommandNames.SPEED.getValue()) && Integer.valueOf(value.getText().toString()) > 40) {
             Toast.makeText(context, "SPEED is too high", Toast.LENGTH_SHORT).show();
-            if (this.smileyImage != null)
-                smileyImage.setImageResource(R.drawable.red_smily);
+            if (this.smileyImage != null && this.smileyImage.getDrawable().getConstantState() != red.getConstantState())
+                smileyImage.setImageDrawable(red);
         } else {
-            if (this.smileyImage != null)
-                smileyImage.setImageResource(R.drawable.green_smily);
+            if (this.smileyImage != null && this.smileyImage.getDrawable().getConstantState() != green.getConstantState())
+                smileyImage.setImageDrawable(green);
         }
 
 //        if(name.getText().equals(AvailableCommandNames.CALCULATED_ENGINE_LOAD.getValue()) && Integer.valueOf(value.getText().toString()) > 1000) {

@@ -5,6 +5,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -60,7 +61,12 @@ public class FragmentDetailsList extends Fragment {
         /**
          * Build the factory out side of the manager class
          */
-        ImageView smilyImage= (ImageView)view.findViewById(R.id.smiley_image);
+        ImageView smilyImage = (ImageView) view.findViewById(R.id.smiley_image);
+
+        Drawable red = getResources().getDrawable(R.drawable.red_smily);
+        Drawable green = getResources().getDrawable(R.drawable.green_smily);
+        if (smilyImage.getDrawable().getConstantState() != red.getConstantState())
+            smilyImage.setImageDrawable(red);
 
         String manager = getArguments().getString(Constants.MANAGER_TAG);
         String address = getArguments().getString(Constants.DEVICE_TAG);
@@ -68,7 +74,7 @@ public class FragmentDetailsList extends Fragment {
         Model.getInstance().createNewManager(manager);
         ((DrawerLocker) getActivity()).setDrawerEnabled(false);
         listView = (ListView) view.findViewById(R.id.details);
-        DetailsAdapter detailsAdapter = new DetailsAdapter(activity,smilyImage);
+        DetailsAdapter detailsAdapter = new DetailsAdapter(activity, smilyImage, green, red);
         listView.setAdapter(detailsAdapter);
         timeView = (TextView) view.findViewById(R.id.time);
         locationInit();
