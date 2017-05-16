@@ -3,39 +3,192 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\segev\Desktop\safedrive-client\app\lib\log4j-1.2.17.jar"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_fd419b134f234e6003532ad6ed3a69e66bcd5d7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0472a198654009e63438ac807a53b91579e9a873">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0bdfd04e5f352940db61ae58f5b7f42de9d3d521\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.android\build-cache\41853d576ff9bff22da570f7f31a6ec82811de31\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9202da2984f0a5d7295518495e83fea0340fb78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_3219a35871420fa739e587080c0a3c712af06647\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.android\build-cache\9721d8b38d8d2bc30ce4e2ae3f080dcf42988f69\output\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_ccd7ec977370082ef64763bdd3cb08b9b8ca6feb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_02c703a1be87f8c7c3ba24ff8a5f7c79dacb4877\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.android\build-cache\c5a6c4bd1678914556230002fc098b0160102e82\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88ccdbf844995d5c9c845e087068d27588b2d026">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aecf278c2e7747714e413d06c66b3cccecd9233a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_5c02296d4e7b0926787d5ee0e7a48136795cae96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_4b1f9ec3f49e1cedb0592d824ef8f231391306bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_b918282851ee09d23a092917f17c528b80d27759\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\Projects\safedrive-client\app\lib\log4j-1.2.17.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
-        <dex dex="C:\Users\segev\Desktop\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\2\log4j-1.2.17_ca32d4c2b3850e554da470f4ac37dee1eec1335b\classes.dex" />
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\2\log4j-1.2.17_40231255c6251d79d71a1cccf154d2d69a99f946\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\segev\Desktop\safedrive-client\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="793cb89b9262b29d8ccbba595f967c35f0c4d8a0">
-        <dex dex="C:\Users\segev\Desktop\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9c77f715de0c3746104e9444cca398cc68077e1d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\segev\Desktop\safedrive-client\app\lib\android-logging-log4j-1.0.3.jar"
+        jar="C:\Users\mzusman\Projects\safedrive-client\app\lib\android-logging-log4j-1.0.3.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
-        <dex dex="C:\Users\segev\Desktop\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-logging-log4j-1.0.3_760fbe24f982a0d3c36ec5d5793f753b3c657228\classes.dex" />
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-logging-log4j-1.0.3_7c065a960ac2ba7fcbb49e26170b485b89fd7ca1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\segev\Desktop\safedrive-client\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\mzusman\.android\build-cache\b2d548f16c159a76695ea55e7ba10b0974a6cb5a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\segev\Desktop\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_451b034bf2ee94436828369b9b3bc8788293db56\classes.dex" />
+        sha1="f82b3f786bf4937ed1a1cc9a9a811e154813ba9a">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06eca48ee92609a0514cbd8110f8310d331a6907\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.android\build-cache\3f9c2be49c482dc71edf6ffb758ef1d8c380527f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="21ca83beb33e223187afd37fce40bdd080a98290">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ebf7c730c4d42f9ea496a9c85caf233fd3780bf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.android\build-cache\092a3a2bb80b493631e9bf6408bbd056ad43dd34\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0db8e1dc3097c0db8425b339e5e720ef6e918400">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4058a089bb319b911ec21e19c99cb43805d8636a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\junit-4.12_295a597d909e6f592882b9983eb87a47c7d3691f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.android\build-cache\9721d8b38d8d2bc30ce4e2ae3f080dcf42988f69\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_75d66b17cddcb396771422d2bd555e9c8f4e00e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_f8ed84bbeabb99cef7554dfda994d761eae5e63b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.android\build-cache\d3fb9f87280e9e91948565d0cec8c322d2694c68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f28a6ac55183151876cc12b7ae28a171839f8a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_b6a4aa2ea05012f755d3f5125bebb2858993cba9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mzusman\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\mzusman\Projects\safedrive-client\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_a06e5c1ee3efe5fb94be0693bddf0a8c72217602\classes.dex" />
     </item>
 
 </items>

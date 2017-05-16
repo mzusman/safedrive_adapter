@@ -26,11 +26,12 @@ public class DetailsAdapter extends BaseAdapter {
     Context context;
     TextView name;
     TextView value;
-
+    ImageView smileyImage;
 
     public DetailsAdapter(Context context, ImageView smileyImage1) {
         this.context = context;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        this.smileyImage = smileyImage1;
 
 
     }
@@ -66,7 +67,6 @@ public class DetailsAdapter extends BaseAdapter {
         name = (TextView) vi.findViewById(R.id.name);
         name.setText(separated[0]);
         value = (TextView) vi.findViewById(R.id.val);
-        ImageView smileyImage = (ImageView) convertView.findViewById(R.id.smiley_image);
 
         if (separated.length > 2) {
             value.setText(separated[1] + ",\n" + separated[2]);
@@ -81,20 +81,21 @@ public class DetailsAdapter extends BaseAdapter {
 
         if (name.getText().equals(AvailableCommandNames.ENGINE_RPM.getValue()) && Integer.valueOf(value.getText().toString()) > 1000) {
             Toast.makeText(context, "ENGINE_RPM is too high", Toast.LENGTH_SHORT).show();
-            smileyImage.setImageResource(R.drawable.red_smily);
-        }
-        else{
-            smileyImage.setImageResource(R.drawable.green_smily);
+            if (this.smileyImage != null)
+                this.smileyImage.setImageResource(R.drawable.red_smily);
+        } else {
+            if (this.smileyImage != null)
+                this.smileyImage.setImageResource(R.drawable.green_smily);
         }
 
         if (name.getText().equals(AvailableCommandNames.SPEED.getValue()) && Integer.valueOf(value.getText().toString()) > 40) {
             Toast.makeText(context, "SPEED is too high", Toast.LENGTH_SHORT).show();
-
-//            smileyImage.setImageResource(R.drawable.red_smily);
+            if (this.smileyImage != null)
+                smileyImage.setImageResource(R.drawable.red_smily);
+        } else {
+            if (this.smileyImage != null)
+                smileyImage.setImageResource(R.drawable.green_smily);
         }
-//        else{
-//            smileyImage.setImageResource(R.drawable.green_smily);
-//        }
 
 //        if(name.getText().equals(AvailableCommandNames.CALCULATED_ENGINE_LOAD.getValue()) && Integer.valueOf(value.getText().toString()) > 1000) {
 //            Toast.makeText(context, "CALCULATED_ENGINE_LOAD is too high", Toast.LENGTH_LONG).show();
